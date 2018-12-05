@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         >
 
-        <Button
+  <Button             android:textAllCaps="false"
             android:id="@+id/btn_demo_timeout_1_2s"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
             android:text="@string/button_1"
             />
 
-        <Button
+  <Button             android:textAllCaps="false"
             android:id="@+id/btn_demo_timeout_1_5s"
             android:layout_weight="1"
             android:layout_height="wrap_content"

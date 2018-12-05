@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         >
 
-        <Button
+  <Button             android:textAllCaps="false"
             android:id="@+id/btn_demo_retrofit_contributors"
             android:layout_weight="2"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
         android:layout_width="match_parent"
         >
 
-        <Button
+  <Button             android:textAllCaps="false"
             android:id="@+id/btn_demo_retrofit_contributors_with_user_info"
             android:layout_weight="2"
             android:layout_height="wrap_content"
