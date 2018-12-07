@@ -87,7 +87,7 @@ public class BufferDemoFragment extends BaseFragment {
   }
 
   // -----------------------------------------------------------------------------------
-  // Main Rx entities
+  // Main Rx entities  （entities 实体 存在）
 
   private Disposable _getBufferedDisposable() {
     return RxView.clicks(_tapBtn)
