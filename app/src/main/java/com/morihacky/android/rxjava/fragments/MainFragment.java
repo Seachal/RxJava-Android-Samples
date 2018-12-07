@@ -7,14 +7,15 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-import butterknife.Unbinder;
 
 import com.morihacky.android.rxjava.R;
 import com.morihacky.android.rxjava.pagination.PaginationAutoFragment;
 import com.morihacky.android.rxjava.rxbus.RxBusDemoFragment;
 import com.morihacky.android.rxjava.volley.VolleyDemoFragment;
+
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
 
 public class MainFragment extends BaseFragment {
 
@@ -96,7 +97,7 @@ public class MainFragment extends BaseFragment {
 
   @OnClick(R.id.btn_demo_rotation_persist)
   void demoRotationPersist() {
-    clickedOn(new RotationPersist3Fragment());
+//    clickedOn(new RotationPersist3Fragment());
     // clickedOn(new RotationPersist2Fragment());
     // clickedOn(new RotationPersist1Fragment());
   }
@@ -117,15 +118,15 @@ public class MainFragment extends BaseFragment {
     clickedOn(new NetworkDetectorFragment());
   }
 
-  @OnClick(R.id.btn_demo_using)
-  void demoUsing() {
-    clickedOn(new UsingFragment());
-  }
+//  @OnClick(R.id.btn_demo_using)
+//  void demoUsing() {
+//    clickedOn(new UsingFragment());
+//  }
 
-  @OnClick(R.id.btn_demo_multicastPlayground)
-  void demoMulticastPlayground() {
-    clickedOn(new MulticastPlaygroundFragment());
-  }
+//  @OnClick(R.id.btn_demo_multicastPlayground)
+//  void demoMulticastPlayground() {
+//    clickedOn(new MulticastPlaygroundFragment());
+//  }
 
   private void clickedOn(@NonNull Fragment fragment) {
     final String tag = fragment.getClass().toString();
